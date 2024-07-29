@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Tabelas complexas com HTML5 </title> 
+  <style>
+   h1 {
+    text-align: center;
+   }
+   
+   table {
+    border: 1px solid green;
+    width: 800px;
+    height: 350px;
+    font-size: 20px;
+    margin: auto;
+   }
+
+   th, td {
+    border: 1px solid green;
+   }
+
+   td {
+    text-align: center;
+    color: red;
+   }
+  </style>
+</head> 
+
+<body> 
+ <h1> Tabelas complexas com HTML5 - mescla de células </h1>
+
+ <table>
+  <caption> Resultado acadêmico - alunos de Web Design - semestre 2024/1 </caption>
+ 
+  <tr>
+   <th> Aluno </th>
+   <th> Matrícula </th>
+   <th> Nota1 </th>
+   <th> Nota2 </th>
+  </tr>
+
+  <tr>
+   <td> João </td>
+   <td> A1 </td>
+   <td> 7 </td>
+   <td> 9 </td>
+  </tr>
+
+  <tr>
+   <td> Pedro </td>
+   <td> A2 </td>
+   <td colspan="2"> 10 </td> <!--junção se dá em duas colunas, na horizontal-->
+  </tr>
+
+  <tr>
+   <td> Ana </td>
+   <td> A3 </td>
+   <td> 8 </td>
+   <td> 6 </td>
+  </tr>
+
+  <tr>
+   <td rowspan="2"> Carlos </td> <!--junção se dá em duas linhas, na vertical-->
+   <td> A4 </td>
+   <td> 9 </td>
+   <td> 4 </td>
+  </tr>
+
+  <tr>
+   <td> A4 </td>
+   <td> 3 </td>
+   <td> 7 </td>
+  </tr>
+
+  <tr>
+   <td> Patrícia </td>
+   <td colspan="2" rowspan="2"> Dados indisponíveis </td> <!--junção se dá em duas linhas e duas colunas ao mesmo tempo-->
+   <td> 9 </td>
+  </tr>
+
+  <tr>
+   <td> Maria </td>
+   <td> 8 </td>
+  </tr>
+ </table>    
+</body> 
+</html> 

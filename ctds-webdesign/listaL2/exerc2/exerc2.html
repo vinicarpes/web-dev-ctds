@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Tabelas com HTML5 </title> 
+  <!--inserção de css externo. Podemos ter a chamada de mais de um arquivo externo na páginas web. Basta usar quantas tags links você precisar-->
+  <link rel="stylesheet" href="formata-tabela.css"> 
+
+  <!--css incorporado-->
+  <!-- <style>
+    .cabecalho{
+      background-color: rgb(99, 183, 243);
+    }
+    td, th{
+      border: 1px solid black;
+    }
+    table {
+      border: 3px solid black;
+      color: black(222, 29, 29); 
+      font-family: verdana;     
+      width: 500px;
+      height: 300px;
+    }
+
+   .sublinhar-texto {
+     text-decoration: underline;
+     font-weight: bold;
+     text-align: right;
+    }
+
+   td.fundo-cinza {
+    background-color: rgb(182, 179, 179);
+   }   
+
+   td.texto-vermelho {
+    color: red;
+    text-align: center;
+  }   
+  </style> -->
+</head> 
+
+<body> 
+ <table>
+  <caption> Legenda da tabela </caption>
+  <tr class="cabecalho">
+    <th colspan="3"> Cabeçalho </th>
+  </tr>
+
+  <tr>
+    <td> Texto </td>
+    <td> Texto </td>
+    <td> Texto </td>
+  </tr>
+
+  <tr>
+    <td> Texto </td>
+    <td> Texto </td>
+    <td rowspan="2"> <img alt="Esta imagem ilustra o logotipo HTML5" src="iconess/icone.webp" title="Ícone do HTML5"> <br> <br>
+    </td>
+  </tr>
+
+  <tr>
+    <td> Texto </td>
+    <td> Texto </td>
+  </tr>
+
+  <tr>
+    <td> Texto </td>
+    <td> Texto </td>
+    <td> Texto </td>  
+  </tr>
+
+  <tr>
+    <td colspan="2"; class="sublinhar-texto"> Texto </td>
+    <td class="texto-vermelho fundo-cinza"> Texto </td>
+  </tr>
+ </table>  
+ 
+ <!-- <p class="sublinhar-texto"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda recusandae debitis consequuntur ipsam eum velit voluptates, exercitationem saepe vero aliquid fuga dignissimos aspernatur cupiditate, ratione vitae atque! Voluptatibus, id quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur, inventore aliquam earum sit possimus architecto veritatis. Saepe, ullam ab minus eaque asperiores libero corporis? Dolore sed et corrupti. Amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut nihil amet sed? Quod sapiente consequatur perferendis beatae corrupti dignissimos repudiandae ipsam aut id magnam. Veniam voluptas vero voluptates culpa? </p> -->
+</body> 
+</html> 
