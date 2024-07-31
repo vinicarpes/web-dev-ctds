@@ -1,3 +1,14 @@
+caption {
+    font-weight: bold; /* Negrito */
+    font-size: 1.2em; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Alinhamento central */
+    caption-side: top; /* Posição do caption (topo) */
+}
 table{
     border: 2px solid black;
     width: auto;
