@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="formatacao-form.css">
+    <title>Formulário básico com HTML5</title>
+</head>
+<body>
+    <form method="post" action="recebe-dados.php">
+        <fieldset> 
+            <legend>Dados Pessoais</legend>
+            
+            <label>Nome:</label>
+            <input type="text" name="nome-usuario" placeholder="Digite seu nome" autofocus><br>
+
+            <label>Idade:</label>
+            <input type="number" name="idade-usuario" placeholder="Insira a sua idade" min="0" max="100.00" step="1"><br>
+            <label>Pretensão Salarial:</label>
+            <input type="number" name="pretesaoSal-usuario"  min="0" max="10000.00" step="0.01"><br>
+
+            <label>Nascimento:</label>
+            <input type="date" name="data-nasc"><br>
+
+        </fieldset>
+        <fieldset>
+            <legend class="alinha">Dados Profissionais</legend>
+
+            <label>Graduado em:</label><br>
+            <input type="radio" name="dadosTrabalhista" value="1" >2024<br>
+
+            <input type="radio" name="dadosTrabalhista" value="2" >2023<br>
+            <input type="radio" name="dadosTrabalhista" value="3" >Antes de 2023<br>
+
+            <label>Área de atuação:</label><br>
+            <input type="checkbox" name="dadosAtuacao" >Desenvolvimento de Software<br>
+            <input type="checkbox" name="dadosAtuacao" >Gestão de TI<br>
+            <input type="checkbox" name="dadosAtuacao" >Desenvolvimento de jogos<br>
+            <input type="checkbox" name="dadosAtuacao" >DevOps<br>
+
+        </fieldset>
+        <div>
+            <button class="button" :hover type="submit">CadastrarDados</button>
+        </div>
+        
+    </form>
+</body>
+</html>

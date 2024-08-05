@@ -1,0 +1,32 @@
+form{
+    margin: auto;
+    height: auto;
+    width: 400px;
+    text-align: left;
+    text-decoration: wavy;
+    background-color: bisque;
+}
+section{
+    border: 5px;
+}
+.alinha{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+legend{
+    font-weight: bolder;
+}
+button{
+    border-radius: 10%;
+    transition-duration: 0.4s
+}
+.button:hover {
+    background-color: rgb(95, 95, 5); 
+    color: white;
+  }
+div{
+    text-align: center;
+}
