@@ -6,42 +6,49 @@
     <title>Formulário básico com HTML5</title>
 </head>
 <body>
+    <h2>Cadastro de Currículo Online</h2>
     <form method="post" action="recebe-dados.php">
-        <fieldset> 
+        <fieldset class="muda-margem"> 
             <legend>Dados Pessoais</legend>
             
-            <label>Nome:</label>
-            <input type="text" name="nome-usuario" placeholder="Digite seu nome" autofocus><br>
+            <label class="alinha">Nome:</label>
+            <input class="alinha" type="text" name="nome-usuario" placeholder="Digite seu nome" autofocus><br>
 
-            <label>Idade:</label>
-            <input type="number" name="idade-usuario" placeholder="Insira a sua idade" min="0" max="100.00" step="1"><br>
-            <label>Pretensão Salarial:</label>
-            <input type="number" name="pretesaoSal-usuario"  min="0" max="10000.00" step="0.01"><br>
+            <label class="alinha">Idade:</label>
+            <input class="alinha"  type="number" name="idade-usuario" placeholder="Insira a sua idade" min="0" max="100.00" step="1"><br>
+            <label class="alinha">Pretensão Salarial:</label>
+            <input class="alinha"  type="number" name="pretesaoSal-usuario"  min="0" max="250000.00" step="0.01" placeholder="Pretensão salarial"><br>
 
-            <label>Nascimento:</label>
-            <input type="date" name="data-nasc"><br>
+            <label class="alinha">Nascimento:</label>
+            <input class="alinha"  type="date" name="data-nasc"><br>
 
         </fieldset>
         <fieldset>
             <legend class="alinha">Dados Profissionais</legend>
 
-            <label>Graduado em:</label><br>
-            <input type="radio" name="dadosTrabalhista" value="1" >2024<br>
+            <label class="alinha">Graduado em:</label><br>
+            <input type="radio" name="dadosTrabalhista" value="2024" checked>2024<br>
+            <input type="radio" name="dadosTrabalhista" value="2023" >2023<br>
+            <input type="radio" name="dadosTrabalhista" value="<2023" >Antes de 2023<br>
 
-            <input type="radio" name="dadosTrabalhista" value="2" >2023<br>
-            <input type="radio" name="dadosTrabalhista" value="3" >Antes de 2023<br>
+            <label class="alinha">Área de atuação:</label><br>
+            <input type="checkbox" name="dadosAtuacao[]" value="Desenvolvimento de Software">Desenvolvimento de Software<br>
+            <input type="checkbox" name="dadosAtuacao[]" value="Gestão de TI">Gestão de TI<br>
+            <input type="checkbox" name="dadosAtuacao[]" value="Desenvolvimento de jogos">Desenvolvimento de jogos<br>
+            <input type="checkbox" name="dadosAtuacao[]" value="DevOps">DevOps<br>
 
-            <label>Área de atuação:</label><br>
-            <input type="checkbox" name="dadosAtuacao" >Desenvolvimento de Software<br>
-            <input type="checkbox" name="dadosAtuacao" >Gestão de TI<br>
-            <input type="checkbox" name="dadosAtuacao" >Desenvolvimento de jogos<br>
-            <input type="checkbox" name="dadosAtuacao" >DevOps<br>
-
+            <label class="alinha-textao">Tempo de experiência profissional:</label><br>
+            <select name="tempo-experienca">
+                <option>Menos de 1 ano</option>
+                <option>Mais de 1 ano e menos de 5</option>
+                <option>Mais de 5 anos</option>
+            </select><br>
+            <label class="alinha-textao">Forneça aqui outras informações que achar relevante:</label><br>
+            <textarea name="informacoes-adicionais" placeholder="Suas informações aqui.............."></textarea>
         </fieldset>
         <div>
             <button class="button" :hover type="submit">CadastrarDados</button>
         </div>
-        
     </form>
 </body>
 </html>
