@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IFSC - CTDS - dados cadatrais de alunos</title>
+    <link rel="stylesheet" href="formata-form.css">
+</head>
+<body>
+    <h2>IFSC - CTDS - dados cadatris de alunos</h2>
+    <form action="form-cadastro.php" method="post">
+        <fieldset class="center-align">
+            <legend class="left-align">Aluno - Dados pessoais</legend>
+        
+            <label for="nome" class="right-align">Nome completo:</label>
+            <input type="text" name="nome" autofocus class="left-align"> <br>
+
+            <label for="email" class="right-align">E-mail:</label>
+            <input type= "email" name="email" class="left-align"> <br>
+
+            <label for="fone" class="right-align">Celular:</label>
+            <input type="text" name="fone" class="left-align"> <br>
+
+            <label for="mtcl" class="right-align">Matrícula:</label>
+            <input type="text" name="mtcl" class="left-align"> <br>
+
+            <label for="login" class="right-align">Login de usuário:</label>
+            <input type="text" name="login" class="left-align"> <br>
+
+            <label for="senha">Senha do usuário:</label>
+            <input type="password" name="senha" class="left-align"> <br>
+        </fieldset>
+        <fieldset class="left-align">
+
+            <legend>Aluno - Dados institucionais</legend>
+
+            <label for="fase">Selecione sua fase:</label>
+            <select name="fase" id="fase" required>
+                <option value=""  selected>Selecione uma opção</option>
+                <option value="1fase">1° Fase</option>
+                <option value="2fase">2° Fase</option>
+                <option value="3fase">3° Fase</option>
+                <option value="4fase">4° Fase</option>
+                <option value="5fase">5° Fase</option>
+                <option value="6fase">6° Fase</option>
+            </select>
+            <br>
+            <br>
+            <label for="cgsemanal">Número de aulas semanais:</label> <br>
+            <input type="radio" name="cgsemanal" value="menor20"> Menos de 20 aulas 
+            <input type="radio" name="cgsemanal" value="igualVinte">Exatamente 20 aulas 
+            <input type="radio" name="cgsemanal" value="maior20">Mais de 20 aulas 
+            <br>
+            <br>
+
+            <input type="checkbox" name="inicioPI">
+            <label for="inicioPI">Marque esta opção se já iniciou o Projeto Integrador</label>
+            </fieldset>
+            <div class="button-align">
+                <button class="button" type="submit">Cadastrar dados</button>
+            </div>
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+form{
+    border-radius: 10px;
+    width: auto;
+    margin: auto;
+    height: auto;
+}
+
+fieldset{
+    background-color: rgb(100, 184, 100);
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    height: auto;
+
+}
+
+.button-align{
+text-align: center;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.right-align{
+    text-align: right;
+}
