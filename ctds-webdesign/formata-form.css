@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter&display=swap');
+
 form{
     border-radius: 10px;
     width: auto;
@@ -10,19 +12,21 @@ fieldset{
     border: 1px solid grey;
     box-shadow: 5px 5px 5px grey;
     border-radius: 10px;
-    width: 40%;
+    width: 45%;
     margin: auto;
     height: auto;
 
 }
 
-.button-align{
-text-align: center;
+button{
+    border-radius: 10px;
+    margin-top: 5px;
 }
 
 .center-align{
     text-align: center;
 }
+
 
 .left-align{
     text-align: left;
@@ -30,4 +34,32 @@ text-align: center;
 
 .right-align{
     text-align: right;
+}
+
+h2{
+    background-color: aqua;
+}
+
+body{
+    background-color:grey;
+}
+label.align {
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 5px;
+
+}
+
+label.center-align {
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-left: 28px;
+}
+
+.wider-input {
+    width: 190px;
+    display: inline-block;
 }
