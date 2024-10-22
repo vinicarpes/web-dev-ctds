@@ -48,3 +48,13 @@ button{
     margin-top: 10px;
     width: 150px;
 }
+
+p {
+    border-bottom: 1px solid black;
+    background-color: #837f65;
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+    color: white; /* Melhor contraste para o fundo escuro */
+    padding: 10px; /* Espaço interno para maior conforto de leitura */
+}
