@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+</head>
+<body>
+    <h1>Viajando com php</h1>
+    <form method="post" action="../php/exerc2.php">
+        <fieldset>
+            <legend>Consumo de gasolina</legend>
+
+            <label for="carro">Digite o modelo de seu veículo:</label>
+            <input type="text" name="carro"><br>
+
+            <label for="distancia">Insira a distância percorrida:</label>
+            <input type="number" name="distancia" min="0" step="0.1"> <br>
+
+            <label for="preco-combustivel">Insira o valor do litro de combustível:</label>
+            <input type="number" name="preco-combustivel" min="0" step="0.01"><br>
+            
+            <label for="consumo">Digite o consumo do veículo (Km/L):</label>
+            <input type="number" name="consumo" step="0.1"><br>
+
+            <button type="submit">Calcular</button>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
