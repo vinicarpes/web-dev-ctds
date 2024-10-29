@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <!--<link rel="stylesheet" href="../css/formata-pagina.css">
+    --> 
+</head>
+<body>
+    <h1>Supermercados AAA - processamento de dados</h1>
+    <form method="post" action="../php/exerc4.php">
+        <fieldset>
+            <legend>Processamento de vendas<legend>
+
+            <label for="valor-compra">Insira o valor total da compra: </label>
+            <input type="number" name="valor-compra" step="0.01" min="0" autofocus><br>
+
+            <label>Entrega domiciliar foi solicitada?</label> <br>
+            <input type="radio" name="entrega-domiciliar" value="true">Sim <br>
+            <input type="radio" name="entrega-domiciliar" value="false">Não <br>
+
+            <label>O cliente pagou com cartão?</label>
+            <input type="radio" name="forma-pagamento" value="true"><label>Sim</label><br>
+            <input type="radio" name="forma-pagamento" value="false"><label>Não</label><br>
+
+
+            <button type="submit">Processar compra</button>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
