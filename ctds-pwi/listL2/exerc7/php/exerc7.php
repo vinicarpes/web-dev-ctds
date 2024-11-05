@@ -40,6 +40,8 @@
         }else{
             die("<p>Preencha os campos obrigatórios.</p>");
         }
+
+        $valorFinal = number_format($valorFinal, 2, ",", "."); //trocando ponto por vírgula na escrita: 2.50 -> 2,50
         
         echo "<p>******RESUMO VENDA******<br>
         Valor da compra: $valInicial;<br>
