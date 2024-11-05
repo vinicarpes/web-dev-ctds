@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+     
+</head>
+<body>
+    <h1>Lojas AAA - processamento de vendas</h1>
+    <form method="post" action="../php/exerc9.php">
+
+        <fieldset>
+            <legend>Processamento de vendas à prazo/vista</legend>
+
+            <label>Insira o valor total da compra: </label><br>
+            <input type="number" name="valor-compra" step="0.01" min="0" autofocus><br>
+
+            <label>Indique a forma de pagamento: </label><br>
+            <input type="radio" name="forma-pagamento" value="a-vista"><label>À vista</label><br>
+            <input type="radio" name="forma-pagamento" value="prazo"><label>Prazo</label><br>
+
+            <label>Selecione a bandeira do cartão:</label><br>
+            <input type="radio" name="bandeira"><label>VISA</label><br>
+            <input type="radio" name="bandeira"><label>MASTERCARD</label><br>
+            <input type="radio" name="bandeira"><label>HIPERCARD</label><br>
+            <input type="radio" name="bandeira"><label>ELO</label><br>
+
+            <button type="submit">Processar compra</button>    
+        </fieldset>
+    </form>
+</body>
+</html>
