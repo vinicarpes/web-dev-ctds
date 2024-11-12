@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+     
+</head>
+<body>
+    <h1>Comércio de fármacos</h1>
+
+    <form method="post" action="../php/exerc10.php">
+        <fieldset>
+            <legend>Menu de compra</legend>
+            <label for="">Forneça o valor inicial da compra:</label><br>
+            <input type="number" min="0" autofocus step="0.1" name="valor-inicial"><br>
+
+            <label for="">Indique a faixa etária do cliente:</label><br>
+            <input type="radio" name="faixa-etaria" value ="menor-55"><label>Menos de 55 anos</label><br>
+            <input type="radio" name="faixa-etaria" value ="maior-55-menor-70"><label>Entre 55 e 70</label><br>
+            <input type="radio" name="faixa-etaria" value ="maior-70"><label>Acima de 70</label><br>
+
+            <label>O cliente pagou a compra com o cartão fidelidade da rede?</label><br>
+            <label>Sim</label><input type="checkbox" name="cartao-fidelidade"><br>      
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
