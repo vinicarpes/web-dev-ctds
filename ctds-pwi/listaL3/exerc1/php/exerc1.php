@@ -11,13 +11,10 @@
     <h1>Relatório de venda - Farmácias AAA</h1>
     <?php 
        $vetorNotas = [$_POST['nota1'], $_POST['nota2'], $_POST['nota3']];
-       $media = 0;
-       
-        for($i=0;$i<3;$i++){
-            $media += $vetorNotas[$i];
-        }
+       $media = array_sum($vetorNotas);
 
-        $media = number_format($media/3, 1, ",", ".");
+       $media = number_format($media/3, 1, ",", ".");
+
 
        echo "<p>Média da turma: $media</p>";
     ?>
