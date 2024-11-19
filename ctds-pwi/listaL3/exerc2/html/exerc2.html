@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+     
+</head>
+<body>
+    <h1>Avaliação de Programação Web I - Cadastro de notas</h1>
+
+    <form method="post" action="../php/exerc2.php">
+        <fieldset>
+            <legend>Rendimento acadêmico - PRW</legend>
+
+            <label>Forneça o nome do primeiro aluno:</label>
+            <input type="text" name="aluno1" autofocus><br>
+            <label>Forneça a nota do primeiro aluno:</label>
+            <input type="number" step="0.1" min="0" max="10" name="nota1"><br>
+
+            <label>Forneça o nome do segundo aluno:</label>
+            <input type="text" name="aluno2" autofocus><br>
+            <label>Forneça a nota do segundo aluno:</label>
+            <input type="number" step="0.1" min="0" max="10" name="nota2"><br>
+
+            <label>Forneça o nome do terceiro aluno:</label>
+            <input type="text" name="aluno3" autofocus><br>
+            <label>Forneça a nota do terceiro aluno:</label>
+            <input type="number" step="0.1" min="0" max="10" name="nota3"><br>
+
+            <button type="submit">Cadastrar notas</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
