@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+     
+</head>
+<body>
+    <h1>Trabalhando com vetores em php - Carrinho de compras</h1>
+
+    <form method="post" action="../php/exerc8.php">
+        <fieldset>
+            <legend>Farmácias on-line AAA</legend>
+
+            <label>Selecione os produtos:</label><br>
+            <input type="checkbox" name="medicacao[]" value="dipirona" id="dipirona"><label for="dipirona">Dipirona</label><br>
+            <input type="checkbox" name="medicacao[]" value="paracetamol" id="paracetamol"><label for="paracetamol">Paracetamol</label><br>
+            <input type="checkbox" name="medicacao[]" id="loratadina" value="loratadina"><label for="loratadina">Loratadina</label><br>
+
+            <hr>
+            <input type="checkbox" name="idoso" id="idoso"> <label for="idoso">Idade a partir de 60 anos</label><br>
+            </hr>
+            <button type="submit">Finalizar compra</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
