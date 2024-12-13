@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação web com PHP</title>
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+     
+</head>
+<body>
+    <h1>Supermercados AAA - processamento de dados</h1>
+    <form method="post" action="../php/exerc8.php">
+
+        <fieldset>
+            <legend>Processamento de vendas - exerc8</legend>
+
+            <label>Insira o valor total da compra: </label><br>
+            <input type="number" name="valor-compra" step="0.01" min="0" autofocus><br>
+
+            <input type="checkbox" name="forma-pagamento"><label>Pagamento com cartão - desconto 5%</label><br>
+            <input type="checkbox" name="entrega-domiciliar"><label>Entrega domiciliar - acréscimo 2%</label><br>
+
+
+            <button type="submit">Processar compra</button>    
+        </fieldset>
+    </form>
+</body>
+</html>

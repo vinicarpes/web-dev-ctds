@@ -29,7 +29,8 @@
        //krsort() - ordena desc os indices e mantem as associacoes
     
        arsort($vetorNotas);
-        echo "<table>
+        
+       echo "<table>
             <caption> Relação de dados acadêmicos dos alunos de CTDS/PRWI</caption>
         
             <tr>
