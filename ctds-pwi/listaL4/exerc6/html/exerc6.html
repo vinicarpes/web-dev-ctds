@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formata-pagina.css">
+    <title>Rendimento acadêmico</title>
+</head>
+
+<body>
+    <h1>Módulo de cadastro dos medicamentos</h1>
+
+    <nav class="sidebar">teste</nav>
+
+    <form action="../php/exerc6.php" method="post">
+        <fieldset>
+            <legend>Matrizes com PHP - Exercício 6</legend>
+
+            <label for="med1">Forneça o nome do primeiro medicamento</label>
+            <input type="text" name="med1" id="med1" autofocus><br>
+
+            <label for="cod1">Forneça o código do primeiro medicamento</label>
+            <input type="text" name="cod1" id="cod1"><br>
+
+            <label for="preco1">Forneça o preço de venda do primeiro medicamento</label>
+            <input type="number" min="0" max="10000" step="0.01" name="preco1" id="preco1"><br>
+
+            <hr>
+
+            <label for="med2">Forneça o nome do segundo medicamento</label>
+            <input type="text" name="med2" id="med2" autofocus><br>
+
+            <label for="cod2">Forneça o código do segundo medicamento</label>
+            <input type="text" name="cod2" id="cod2"><br>
+
+            <label for="preco2">Forneça o preço de venda do segundo medicamento</label>
+            <input type="number" min="0" max="10000" step="0.01" name="preco2" id="preco2"><br>
+            
+            <hr>
+
+            <label for="med3">Forneça o nome do terceiro medicamento</label>
+            <input type="text" name="med3" id="med3" autofocus><br>
+
+            <label for="cod3">Forneça o código do terceiro medicamento</label>
+            <input type="text" name="cod3" id="cod3"><br>
+
+            <label for="preco3">Forneça o preço de venda do terceiro medicamento</label>
+            <input type="number" min="0" max="10000" step="0.01" name="preco3" id="preco3"><br>
+
+
+            <button class="alinha" type="submit">Criar e processar dados</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
