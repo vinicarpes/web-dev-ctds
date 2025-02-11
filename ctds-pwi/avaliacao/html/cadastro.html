@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de clubes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Campeonato Brasileiro - cadastro de clubes</h1>
+
+    <form action="../php/processar_cadastro.php" method="post">
+        <label for="clube1">Nome do clube: </label> 
+        <input type="text" id="clube1" name="clube1"><br>
+    
+        <label for="titulo-estadual1">Títulos de campeão pelo seu estado:</label>
+        <input type="number" id="titulo-estadual1" name="titulo-estadual1" min="0" step="1"><br>
+        
+        <label for="estado1">Estado de origem:</label>
+        <select name="estado1" id="estado1" >
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select><br>
+        <hr>
+        
+        <label for="clube2">Nome do clube: </label> 
+        <input type="text" id="clube2" name="clube2"><br>
+        
+        
+        <label for="titulo-estadual2">Títulos de campeão pelo seu estado:</label>
+        <input type="number" id="titulo-estadual2" name="titulo-estadual2" step="1" min="0"><br>
+        
+        <label for="estado2">Estado de origem:</label>
+        <select name="estado2" id="estado2" >
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select><br>
+        <hr>
+
+        <label for="clube3">Nome do clube: </label> 
+        <input type="text" id="clube3" name="clube3"><br>
+        
+        
+        <label for="titulo-estadual3">Títulos de campeão pelo seu estado:</label>
+        <input type="number" id="titulo-estadual3" name="titulo-estadual3" step="1" min="0"><br>
+      
+        <label for="estado3">Estado de origem:</label>
+        <select name="estado3" id="estado3" >
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select><br>
+        <hr>
+
+        <button class="btn" type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
