@@ -1,0 +1,59 @@
+.navbar-login{
+    height: 10rem !important;
+    background-color: rgb(42, 58, 165) !important;
+}
+
+.navbar-menu{
+    height: 3rem;
+    background-color: rgb(42, 58, 165) !important;
+}
+
+.nav-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.card-panel{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+.card{
+    background-color: #ffffff;
+    width: 7rem;
+    height: 7rem;
+    /* border-radius:10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card-img{
+    height: 5rem;
+    width: 5rem;
+}
+.row{
+    height: 20rem !important;
+}
+.card-view{
+    background-color: #ffffff;
+    width: 20rem;
+    height: 20rem;
+    /* border-radius:10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-view{
+    height: 20rem;
+    width: 20rem;
+}
