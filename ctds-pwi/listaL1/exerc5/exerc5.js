@@ -1,1 +1,0 @@
-alert("Este pop-up é chamado na tag head e é renderizado antes do conteúdo da página")
