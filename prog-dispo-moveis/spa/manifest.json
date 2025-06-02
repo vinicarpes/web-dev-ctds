@@ -4,10 +4,16 @@
     "name": "APP Bootstrap PWA",
     "description": "Template de aplicativo baseado em Bootstrap, SPA e PWA",
     "scope": "./",
-    "icons": [],
+    "icons": [
+        {
+            "src": "icons/icon-301x301.png",
+            "sizes": "192x192",
+            "type": "image/png"
+            }
+    ],
     "background_color": "#4b0082",
     "theme_color": "#4b0082",
     "start_url": "./index.html",
     "display": "standalone",
     "orientation": "portrait"
-  }
+}
