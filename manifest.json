@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/web-manifest",
+    "short_name": "TemplateAPP",
+    "name": "APP Bootstrap PWA",
+    "description": "Template de aplicativo baseado em Bootstrap, SPA e PWA",
+    "scope": "./",
+    "icons": [],
+    "background_color": "#4b0082",
+    "theme_color": "#4b0082",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
