@@ -3,16 +3,16 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title> Funções de include em PHP </title>
+ <title> Includes em PHP </title>
  <link rel="stylesheet" href="../css/formata-pagina.css">
 </head>
 
 <body>
- <h1> Funções de usuário em PHP - exercício 5 da lista L1 </h1>
+ <h1> Funções de usuário e includes em PHP - exercício 5 da listaL1 </h1>
 
  <form action="exerc5.php" method="post">
   <fieldset>
-   <legend> Funções de usuário em PHP - processando notas de alunos </legend>
+   <legend> Includes em PHP - processando notas de alunos </legend>
 
    <label class="alinha"> Forneça o nome do aluno: </label>
    <input type="text" name="aluno" autofocus> <br>
@@ -23,14 +23,13 @@
    <label class="alinha"> Forneça a segunda nota de PRWII do aluno: </label>
    <input type="number" name="nota2" min="0" max="10" step="0.1"> <br>
 
-   <button name="enviar-dados"> Processar dados do aluno usando subrotinas em PHP </button>
+   <button name="enviar-dados"> Processar dados do aluno usando subrotinas e includes em PHP </button>
   </fieldset>
  </form>
 
- <?php
-
-    // include("../includes/exerc5.inc.php");
-    require_once("../includes/exerc5.inc.php");
+ <?php  
+  //para o PHP incluir o código de um arquivo externo (include) aqui, no arquivo principal, usamos o comando abaixo
+  require_once("../includes/exerc5.inc.php");
 
   //quando misturamos, em um mesmo arquivo .php, elementos de formulário com comandos para receber e processar este formulário, devemos usar a linha de comando abaixo, evitando o surgimento de mensagens de erro
 

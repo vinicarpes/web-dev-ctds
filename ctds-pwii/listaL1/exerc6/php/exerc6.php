@@ -3,16 +3,16 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title> Funções de usuário em PHP </title>
+ <title> Includes em PHP </title>
  <link rel="stylesheet" href="../css/formata-pagina.css">
 </head>
 
 <body>
- <h1> Funções de usuário em PHP - exercício 2 da listaL6 </h1>
+ <h1> Funções de usuário e includes em PHP - exercício 6 da listaL1 </h1>
 
  <form action="exerc6.php" method="post">
   <fieldset>
-   <legend> Funções de usuário em PHP - processando idades </legend>
+   <legend> Includes em PHP - processando idades </legend>
 
    <label class="alinha"> Forneça a idade da pessoa: </label>
    <input type="number" name="idade" min="0" max="130" autofocus> <br>
@@ -22,9 +22,8 @@
  </form>
 
  <?php
+ require_once("../includes/exerc6.inc.php");
  
-  require_once("../include/exerc6.inc.php");
-
  if(isset($_POST['enviar-dados']))
   {
   //área do script principal

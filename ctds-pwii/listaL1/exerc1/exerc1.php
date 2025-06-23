@@ -32,7 +32,7 @@
   function testarNome($aluno)
    {
    //retirar os espaços em branco do nome do aluno
-  //  $aluno = trim($aluno);
+   $aluno = trim($aluno);
    //contar o número de caracteres do nome do aluno
    $numeroDeCaracteres = strlen($aluno);
 

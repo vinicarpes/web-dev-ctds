@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+
+body {
+ font-family: "Special Gothic Condensed One";
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #630A10;
+ background-color: rgb(252, 240, 200);
+ padding: 0;
+ margin: 0;
+ box-shadow: 0 0 5px 5px rgb(145, 31, 39);
+ text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+ margin-bottom: 40px;
+}
+
+.alinha {
+ width: 300px;
+ display: inline-block;
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+input {
+ font-family: "Special Gothic Condensed One";
+}
+
+input[name="medico"], input[name="paciente"], input[name="pesquisa-medico"] {
+ width: 250px;
+}
+
+fieldset {
+ width: 50%;
+ margin: 40px auto;
+ border-radius: 10px;
+ background-color: rgba(252, 240, 200,0.2);
+ box-shadow: 5px 5px 5px  #630A10;
+}
+
+button {
+ width: 300px;
+ height: 40px;
+ font-family: "Special Gothic Condensed One";
+ font-size: 16px;
+ margin-left: 12px;
+}
+
+button[name="cadastrar-medico"], button[name="cadastrar-paciente"], button[name="pesquisar"] {
+ display: block;
+ margin: auto;
+ margin-top: 20px;
+}
+
+p {
+ text-align: center;
+ border: 1px solid #630A10;
+ border-radius: 10px;
+ background-color: rgba(252, 240, 200,0.2);
+ width: 50%;
+ margin: 40px auto;
+}
+
+span {
+ font-weight: bold;
+ color: #630A10;
+}
+
+table {
+ width: 50%;
+ margin: 40px auto;
+ border: 1px solid #630A10;
+ background-color: rgba(252, 240, 200,0.2);
+}
+
+td, th {
+ border: 1px solid #630A10;
+}
+
+th {
+ background: #911F27;
+ color: #fff;
+}
+
+td {
+ text-align: center;
+}
+
+caption {
+ color: #630A10;
+ caption-side: bottom;
+ margin-top: 5px;
+}
+
+textarea {
+ font-family: "Special Gothic Condensed One";
+ width: 200px;
+ height: 100px;
+ resize: none; /*desativa a alça de redimensionamento*/
+ vertical-align: top; /*alinha o texto do label na vertical*/
+}
